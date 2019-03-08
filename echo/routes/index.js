@@ -17,7 +17,7 @@ router.get('/', function(req, res) {
     };
 
     res.set('Content-Type', 'application/json');
-    console.log('Sending response ', responseObject);
+    console.log('Sending response (hheu)', responseObject);
     res.status(200).send(responseObject);
 });
 
